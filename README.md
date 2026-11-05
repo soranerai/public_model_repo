@@ -1,5 +1,7 @@
 # exteraAdblock model
 
-Russian ad-classification model, ruBERT-tiny2 FP32. `model.json` is the version manifest. Reassemble `model.onnx.part01` followed by `model.onnx.part02` to obtain the ONNX model; verify the SHA-256 and use the supplied vocabulary.
+`model.json` describes the current ruBERT-tiny2 INT8 classifier (v1.1.0). Download the file named in `parts` and verify its SHA-256; use the supplied vocabulary.
+
+The original FP32 classifier is retained for rollback: `model-fp32.json` describes the two model parts. Version 1.0.0 is also available in the Git history.
 
 This repository contains model artifacts only, no feedback dataset.

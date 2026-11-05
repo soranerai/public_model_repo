@@ -2,3 +2,4 @@ model.onnx.part* -text
 vocab.txt -text
 *.json text eol=lf
 *.md text eol=lf
+*.onnx -text

@@ -1,21 +1,16 @@
 {
   "format": "extera-adblock-model-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "model": "rubert-tiny2",
-  "precision": "fp32",
-  "model_size": 116869162,
-  "model_sha256": "e1bf85681bccc534e1b9f1c85b5f9498f1b172829deaa383873260585a87f974",
+  "precision": "int8",
+  "model_size": 29379710,
+  "model_sha256": "e3f822ab53aaef090cf53c387c9fb0d7e2d100a058f7f7c93c7b342650ac549f",
   "vocab_sha256": "f056a69b097422652053bf87565c35543e5d81540ca4b7dddd28de4157a969e0",
   "parts": [
     {
-      "path": "model.onnx.part01",
-      "size": 60000000,
-      "sha256": "035cfa0ed17bfc0aea3c5514b3ad581015e9f6a62095d8dde9507651493363d0"
-    },
-    {
-      "path": "model.onnx.part02",
-      "size": 56869162,
-      "sha256": "b812a5f95574636566091e8a7a70c67f0b0be590e408d068fc8f360f8aaedfce"
+      "path": "model-int8.onnx",
+      "size": 29379710,
+      "sha256": "e3f822ab53aaef090cf53c387c9fb0d7e2d100a058f7f7c93c7b342650ac549f"
     }
   ]
 }
